@@ -1,0 +1,8 @@
+Reducers - 
+
+1. Function that gets called with two ojects
+2. Argument #1 - object that has all our state in it ({red:0, green: 0, blue:0})
+3. Argument #2 - object that describes the update we want to make(colorToChange: 'red', amount: 15)
+4. We look at Argument #2 and use it to decide how to change Argument #1
+5. Two technicalities - (1) We never change Argument #1 directly.
+    (2) We must always return a value to be used as Argument #1

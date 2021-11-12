@@ -1,0 +1,13 @@
+There are 4 parts of React component file:
+1. Import libraries we need to create a component
+2. Create a component - a function that returns some 'JSX'
+3. Create a styesheet to style our component.
+4. Export the component so we can use elsewhere in our project. 
+
+============================================================================
+
+Rules of JSX
+1, We can assemble different JSX elements like normal HTML
+2. We configure different JSX elements using 'props'
+3. We can refer toJS variables inside of a JSX block by using curly braces
+4. We can assign JSX elements to a variable, then show that variable inside of a JSX block
